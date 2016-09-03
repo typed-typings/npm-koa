@@ -62,9 +62,9 @@ declare class Application extends EventEmitter {
 }
 
 declare namespace Application {
-    export interface Request extends _Request {};
-    export interface Response extends _Response {};
-    export interface Context extends _Context {};
+    export type Request = _Request;
+    export type Response = _Response;
+    export type Context = _Context;
 }
 
 export = Application;
