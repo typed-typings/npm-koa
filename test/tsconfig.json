@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2015"
+  },
+  "files": [
+    "test.ts",
+    "../typings/index.d.ts",
+    "../out/lib/application.d.ts"
+  ]
+}
