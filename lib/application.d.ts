@@ -8,7 +8,7 @@ import { BaseContext, Context as _Context } from './context';
 
 declare class Application extends EventEmitter {
     proxy: boolean;
-    middleware: compose.Middleware<Context>[];
+    middleware: compose.Middleware<Application.Context>[];
     subdomainOffset: number;
     env: string;
     context: BaseContext;
@@ -47,7 +47,7 @@ declare class Application extends EventEmitter {
      *
      * Old-style middleware will be converted.
      */
-    use(middleware: compose.Middleware<Context>): this;
+    use(middleware: compose.Middleware<Application.Context>): this;
 
     /**
      * Return a request handler callback

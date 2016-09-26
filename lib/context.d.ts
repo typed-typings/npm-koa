@@ -1,7 +1,7 @@
 import { IncomingMessage, ServerResponse } from 'http';
 import * as httpAssert from 'http-assert';
 import * as Cookies from 'cookies';
-import { Application } from './application';
+import * as Application from './application';
 import { ContextDelegatedRequest, Request } from './request';
 import { ContextDelegatedResponse, Response } from './response';
 

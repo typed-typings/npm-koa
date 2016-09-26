@@ -1,6 +1,6 @@
 import { ResponseHeaders, IncomingMessage, ServerResponse } from 'http';
 import { Socket } from 'net';
-import { Application } from './application';
+import * as Application from './application';
 import { Context } from './context';
 import { Response } from './response';
 
