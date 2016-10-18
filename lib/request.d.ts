@@ -1,4 +1,4 @@
-import { ResponseHeaders, IncomingMessage, ServerResponse } from 'http';
+import { IncomingHeaders, IncomingMessage, ServerResponse } from 'http';
 import { Socket } from 'net';
 import * as Application from './application';
 import { Context } from './context';
@@ -9,11 +9,11 @@ declare namespace req {
         /**
          * Return request header.
          */
-        header: ResponseHeaders;
+        header: IncomingHeaders;
         /**
          * Return request header, alias as request.header
          */
-        headers: ResponseHeaders;
+        headers: IncomingHeaders;
 
         /**
          * Get/Set request URL.
