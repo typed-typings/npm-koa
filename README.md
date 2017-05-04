@@ -1,5 +1,7 @@
 # Typed Koa  [![Build Status](https://travis-ci.org/types/npm-koa.svg?branch=master)](https://travis-ci.org/types/npm-koa)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-koa.svg)](https://greenkeeper.io/)
+
 
 The type definition for [`koa`](https://github.com/koajs/koa.git)
 
